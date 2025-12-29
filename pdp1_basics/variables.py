@@ -6,19 +6,22 @@ Covered:
 - type()
 """
 
+print("Hello, python1")
+
+age = 36
+height = 5.5
+name = "Sid"
+is_student = True
 
 
 
+print(age)
+print(height)
+print(name)
+print(is_student)
 
-x = 10
-y = 3
 
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
-print(x // y)
-print(x % y)
+
 
 
 
@@ -101,10 +104,9 @@ print(
 
 
 
-pdp01: add variables practice script
+
 
 
 """
 )
-
 """
