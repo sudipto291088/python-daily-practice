@@ -8,9 +8,6 @@ Covered:
 
 '''
 
-
-
-
 ## Voting Eligibility
 mage = int(input('Enter your age: '))
 
@@ -46,6 +43,3 @@ elif 3<yoex<7:
     print("Mid Level")
 else:
     print("Senior Level")
-
-
-pdp01: add conditions practice script
