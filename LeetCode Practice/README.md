@@ -1,19 +1,49 @@
+# LeetCode Practice (DSA Foundations)
 
-## Two Sum
+This repository contains my **daily LeetCode practice** focused on building strong
+**Data Structures & Algorithms (DSA)** fundamentals.
 
-### Problem
-Given an array of integers and a target value, return the indices of the two numbers such that they add up to the target.
+The goal is not speed or shortcuts, but **clear thinking, clean code, and correct
+time/space complexity analysis**.
 
-### Approach
-We iterate through the array once while storing previously seen numbers in a hash map.
-For each number, we check if the complement (target - current number) already exists.
-If it does, we return the indices.
+---
 
-### Time Complexity
-O(n)
+## Why this repository exists
 
-### Space Complexity
-O(n)
+- To build problem-solving intuition step by step
+- To understand **why** an approach works, not just make it pass
+- To practice writing **explainable, interview-ready solutions**
+- To track long-term consistency in DSA learning
 
-### Key Concept
-Hash map for constant-time lookup.
+---
+
+## Topics Covered
+
+Problems in this repository focus on:
+
+- Arrays
+- Hash Maps (Dictionaries)
+- Strings
+- Two Pointers
+- Sliding Window
+- Stack & Queue
+- Basic Recursion
+- Time Complexity (Big-O)
+- Space Complexity
+
+Advanced topics (Trees, Graphs, DP) will be added gradually.
+
+---
+
+## Repository Structure
+
+```text
+leetcode/
+ ├── README.md
+ ├── two_sum/
+ │   ├── two_sum.py
+ │   └── README.md
+ ├── frequency_count/
+ │   ├── most_frequent_element.py
+ │   └── README.md
+ └── ...
